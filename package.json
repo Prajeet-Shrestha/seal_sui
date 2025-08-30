@@ -1,0 +1,24 @@
+{
+  "name": "seal_sui",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DaVinci",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@mysten/bcs": "^1.7.0",
+    "@mysten/dapp-kit": "^0.17.6",
+    "@mysten/seal": "^0.5.0",
+    "@mysten/sui": "^1.37.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "typescript": "^5.9.2"
+  }
+}
